@@ -25,13 +25,9 @@ hddamin6844@gmail.com
 
 Gmail上でエイリアス設定をするには，App passwordというものが必要になります．それを発行する手順を説明します．
 
-まず，<https://myaccount.google.com> にいき，左の`Security`を押します．`Signing in to Google`の中の`App passwords`を押します．
+まず，<https://myaccount.google.com/apppasswords> にいきます．
 
-> ここでもしかしたら2段階認証を設定していないとApp passwordsの項目がないかもしれません．その時は，2段階認証を設定してからこの手順をやり直してください．
-
-`Select App`で`Mail`を選択し，`Select device`で`Other`を選択します．
-
-名前に`ase-lab.space`を入力し，`Generate`を押します．
+名前に`ase-lab.space`を入力し，`Create`を押します．
 
 そうすると，16文字のパスワードが表示されるかと思います．これをコピーしてどこかに保存しておいてください．したの手順の中で使います．
 
@@ -47,7 +43,7 @@ Gmail上でエイリアス設定をするには，App passwordというものが
 
 1. Enter information about your other email address.
     - Name: 相手に表示されたい名前
-        - 例: 本田大明
+        - 例: Hiroaki Honda
     - Email address: `伝えられたase-lab.spaceのメールアドレス`
         - 例: `hiroaki.honda@ase-lab.space`
     - Treat as an alias: チェックを入れる
