@@ -6,6 +6,16 @@ ASE-Lab.では，運営メールにGmailのエイリアス機能を使ってい�
 
 ここでは本田大明を例にとって実際にやりながら説明していきます．
 
+> ### 【参考】エイリアスとは
+> メールエイリアスとは、**主要なメールアドレスに紐づいた、別名のメールアドレス**です。エイリアスを持つことで、1つの受信トレイで複数のアドレスを管理でき、**プライベートなメールアドレスを隠したり、用途別にメールを仕分けたりするのに役立ちます**。
+
+> ##### メールエイリアスの主な特徴
+> * 主要アドレスと共通の受信ボックス: エイリアスに届いたメールは、すべて主要なメールアドレスの受信トレイに届きます。
+> * 同じパスワード: エイリアスと主要アドレスは同じパスワードを共有します。
+> * 送信元アドレスの選択: メール送信時に、エイリアスを送信元として選択できます。
+> * プライバシーの保護: ウェブサイトの登録などにエイリアスを使うことで、主要なメールアドレスを非公開にできます。
+> * メールの仕分け: 仕事用、買い物用など用途別にエイリアスを使い分けることで、メールの管理がしやすくなります。
+
 ## 転送のために使うGmailメールアドレスを，ソフトウェア管理者に伝える
 
 現在はソフトウェア管理者は本田大明なので，SlackでHiroaki HondaにDMでGmailを教えてください．こちら側で設定を行います．
@@ -29,7 +39,7 @@ Gmail上でエイリアス設定をするには，App passwordというものが
 
 名前に`ase-lab.space`を入力し，`Create`を押します．
 
-そうすると，16文字のパスワードが表示されるかと思います．これをコピーしてどこかに保存しておいてください．したの手順の中で使います．
+そうすると，16文字のパスワードが表示されるかと思います．これをコピーしてどこかに保存しておいてください．下の手順の中で使います．
 
 これでタブは閉じても構いません．
 
@@ -37,18 +47,19 @@ Gmail上でエイリアス設定をするには，App passwordというものが
 
 実際にGmailの中での設定をします．
 
-まず，<https://mail.google.com> に行き，右上の`Settings`から`See all settings`を押します．`Accounts and Import`タブを押し，したの`Send mail as`欄の中の`Add another email address`を押します．
+まず，<https://mail.google.com> に行き，右上の`Settings`から`See all settings`を押します．`Accounts and Import`タブを押し，下の`Send mail as`欄の中の`Add another email address`を押します．
 
 ここから黄色い画面に進むかと思います．ここからは画面ごとに入力内容を順番に示します．
 
 1. Enter information about your other email address.
     - Name: 相手に表示されたい名前
+        - ASE-Lab.運営の皆様はアルファベットで (First Name) (Family name)の順で登録してください
         - 例: Hiroaki Honda
     - Email address: `伝えられたase-lab.spaceのメールアドレス`
         - 例: `hiroaki.honda@ase-lab.space`
     - Treat as an alias: チェックを入れる
 
-1. Send mail through your SMTP server
+2. Send mail through your SMTP server
     - SMTP Server: `smtp.gmail.com`
     - Username: 今サインインしているGmailアカウントのメールアドレス
         - 例: `hdddamin6844@gmail.com`
@@ -68,6 +79,6 @@ Gmail上でエイリアス設定をするには，App passwordというものが
 
 - メールを送信したい場合，<https://mail.google.com> に行き，メールを作成する画面の中で`From`の行に行き，誰として送りたいかを選択することで`@ase-lab.space`として送信することが可能になります．
 
-何かわからないことがあったら，遠慮せずソフトウェア’管理者（現在は本田大明）へSlackなどでお聞きください．
+何かわからないことがあったら，遠慮せずソフトウェア管理者（現在は本田大明）へSlackなどでお聞きください．
 
 参考: <https://support.google.com/domains/answer/9437157>
