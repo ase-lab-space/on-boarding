@@ -55,7 +55,7 @@ Gmail上でエイリアス設定をするには，App passwordというものが
     - Name: 相手に表示されたい名前
         - ASE-Lab.運営の皆様はアルファベットで (First Name) (Family name)の順で登録してください
         - 例: Hiroaki Honda
-    - Email address: `伝えられたase-lab.spaceのメールアドレス
+    - Email address: `伝えられたase-lab.spaceのメールアドレス`
         - 例: `hiroaki.honda@ase-lab.space`
     - Treat as an alias: チェックを入れる
 
