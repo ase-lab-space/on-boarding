@@ -29,7 +29,11 @@ hddamin6844@gmail.com
 
 ## 送信された認証メールを認証する
 
-設定の途中で，お伝えしてくれたメール宛に確認メールを送ります．そのメールにあるボタンを押してください．押した後にGoogle Domainのページに飛びますが，すぐにタブを閉じてしまって大丈夫です．
+設定の途中で，お伝えしてくれたメール宛に確認メールを送ります．
+
+![](./images/mail_image0.png)
+
+そのメールにあるボタンを押してください．押した後にGoogle Domainのページに飛びますが，すぐにタブを閉じてしまって大丈夫です．
 
 ## App passwordを発行する
 
@@ -38,6 +42,8 @@ Gmail上でエイリアス設定をするには，App passwordというものが
 まず，<https://myaccount.google.com/apppasswords> にいきます．
 
 名前に`ase-lab.space`を入力し，`Create`を押します．
+
+![](./images/mail_image1.png)
 
 そうすると，16文字のパスワードが表示されるかと思います．これをコピーしてどこかに保存しておいてください．下の手順の中で使います．
 
@@ -50,6 +56,8 @@ Gmail上でエイリアス設定をするには，App passwordというものが
 まず，<https://mail.google.com> に行き，右上の`Settings`から`See all settings`を押します．`Accounts and Import`タブを押し，下の`Send mail as`欄の中の`Add another email address`を押します．
 
 ここから黄色い画面に進むかと思います．ここからは画面ごとに入力内容を順番に示します．
+
+![](./images/mail_image2.png)
 
 1. Enter information about your other email address.
     - Name: 相手に表示されたい名前
@@ -75,9 +83,10 @@ Gmail上でエイリアス設定をするには，App passwordというものが
 
 これにて終了です！これにて，`@ase-lab.space`としてメールを送受信することができるようになりました！
 
-- メールを受信した場合，エイリアス登録した元のGmailのメールボックスと一緒に送信されます．
+- メールを受信した場合，エイリアス登録した元のGmailのメールボックスと一緒に受信されます．
 
 - メールを送信したい場合，<https://mail.google.com> に行き，メールを作成する画面の中で`From`の行に行き，誰として送りたいかを選択することで`@ase-lab.space`として送信することが可能になります．
+![](./images/mail_image3.png)
 
 何かわからないことがあったら，遠慮せずソフトウェア管理者（現在は本田大明）へSlackなどでお聞きください．
 
