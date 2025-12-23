@@ -39,7 +39,7 @@ hddamin6844@gmail.com
 
 Gmail上でエイリアス設定をするには，App passwordというものが必要になります．それを発行する手順を説明します．
 
-※App passwordを発行するには、用いるGoogle addressの二段階認証を有効にする必要があります。
+※App passwordを発行するには、用いるGoogleアカウントの二段階認証を有効にする必要があります。
 
 まだ有効にしていない場合、「Google Account」→「セキュリティとログイン」→「二段階認証プロセス」より二段階認証を有効にしてください。
 
